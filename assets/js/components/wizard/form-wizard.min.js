@@ -1,0 +1,1 @@
+$(function(){$("#rootwizard").bootstrapWizard({onTabShow:function(f,a,d){var c=a.find("li").length;var e=d+1;var b=(e/c)*100;$("#rootwizard .progressbar").css({width:b+"%"})}});$("#rootwizard .finish").click(function(){$("#success-modal").modal()})});

@@ -1,0 +1,388 @@
+/*
+=========================================
+=========================================
+
+Item Name: Elisyam - Web App & Admin Dashboard Template
+Author: SAEROX
+
+=========================================
+========================================= */
+.header {
+  background: #fff;
+  min-height: 70px;
+  position: relative;
+  padding: 0 30px;
+}
+
+.navbar-header .logo-small {
+  width: 70px;
+}
+
+.navbar-holder {
+  width: 100%;
+}
+
+nav.navbar {
+  padding: 0;
+  color: #2f3142;
+  border-radius: 0;
+  width: 100%;
+}
+
+nav.navbar .badge {
+  display: block;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+}
+
+nav.navbar a {
+  color: inherit;
+}
+
+nav.navbar .container-fluid {
+  width: 100%;
+}
+
+.navbar-light .navbar-toggler {
+  color: #;
+  border-color: transparent;
+  padding: 1.2rem 1.07rem;
+}
+
+.navbar-toggler span {
+  background: #2f3142;
+  width: 20px;
+  height: 2px;
+  display: block;
+  margin: 4px 0 0;
+  transition: all 0.3s cubic-bezier(0.81, -0.33, 0.345, 1.375);
+}
+
+.navbar-toggler span:nth-of-type(2) {
+  position: relative;
+  width: 30px;
+}
+
+nav.navbar .nav-item > a {
+  position: relative;
+  font-size: 1.8rem;
+  padding: 0;
+  text-align: center;
+  line-height: 85px;
+}
+
+nav.navbar .nav-item > a span {
+  position: absolute;
+  top: 22px;
+  right: 0;
+  border: 3px solid #2f3142;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
+
+.section-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-title h3 {
+  margin-bottom: 15px;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.section-title p {
+  font-size: 1.4rem;
+}
+
+.p-widget-title {
+  font-family: "Noto Sans",sans-serif;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 1.4rem;
+  color: #2e3451;
+  font-weight: 500;
+}
+
+.p-widget-title span {
+  color: #94a4b0;
+}
+
+.p-widget {
+  border-radius: 4px;
+}
+
+.p-widget img {
+  padding: 0 30px;
+}
+
+.features {
+  background: #5d5386;
+  background: linear-gradient(135deg, #5d5386 0%, #2e3451 100%);
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.features h4 {
+  font-weight: 600;
+}
+
+.features i {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.start-project {
+  display: block;
+  position: relative;
+  height: 870px;
+  overflow: hidden;
+}
+
+.m-box {
+  background: rgba(255, 255, 255, 0.95);
+  width: 50%;
+  padding: 3rem 2rem;
+  border-radius: 4px;
+  box-shadow: 0 8px 10px -5px rgba(0,0,0,.2),0 15px 25px 2px rgba(0,0,0,.14),0 5px 30px 5px rgba(0,0,0,.12);
+  position: relative;
+}
+
+.m-box:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.2);
+  height: 20px;
+  width: 90%;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 4px 4px 0 0;
+}
+
+.m-box:after {
+  content: "";
+  background: rgba(255, 255, 255, 0.2);
+  height: 20px;
+  width: 90%;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 0 0 4px 4px;
+}
+
+.start-project h3 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.screens {
+  position: absolute;
+   background: #191b30 url('../../../assets/img/preview/screens.jpg') repeat-y center center;
+  -webkit-animation:100s scroll infinite linear;
+  -moz-animation:100s scroll infinite linear;
+  -o-animation:100s scroll infinite linear;
+  -ms-animation:100s scroll infinite linear;
+  animation:100s scroll infinite linear;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width:100%;
+  height:100%;
+}
+
+.jumbotron.j-documentation {
+  margin: 0;
+  background: url('../img/j-documentation.jpg') no-repeat center center;
+  color: #fff !important;
+  height: 285px;
+  position: relative;
+}
+
+.jumbotron.j-documentation h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.footer {
+  background: #fff;
+  padding: 50px 0;
+}
+
+.footer-logo {
+  display: block;
+  width: 120px;
+  padding: 1.07rem 0;
+}
+
+footer.footer .nav-link {
+  padding: 0 1rem;
+  font-size: 0.85rem;
+}
+
+footer.footer a.nav-link {
+  color: #98a8b4;
+}
+
+footer.footer a:hover.nav-link {
+  color: #5d5386;
+}
+
+@-webkit-keyframes scroll{
+  100%{
+    background-position:50% -3000px;
+  }
+}
+
+@-moz-keyframes scroll{
+  100%{
+    background-position:50% -3000px;
+  }
+}
+
+@-o-keyframes scroll{
+  100%{
+    background-position:50% -3000px;
+  }
+}
+
+@-ms-keyframes scroll{
+  100%{
+    background-position:50% -3000px;
+  }
+}
+
+@keyframes scroll{
+  100%{
+    background-position:50% -3000px;
+  }
+}
+
+.left-nav a {
+  position: relative;
+}
+
+.left-nav .nav-link {
+  padding: 0.85rem 1rem;
+}
+
+.left-nav a[data-toggle="collapse"]::before {
+  font-size: 0.85rem;
+  content: '\f124';
+  display: inline-block;
+  transform: translateY(-50%);
+  font-family: 'ionicons';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+}
+
+.left-nav a[aria-expanded="true"] {
+  color: #e76c90;
+}
+
+.left-nav a[aria-expanded="true"] i {
+  color: #e76c90;
+}
+
+.left-nav a[aria-expanded="true"]::before {
+  content: '\f123';
+}
+
+.left-nav.nav-pills .nav-link.active, 
+.left-nav.nav-pills .show > .nav-link {
+  color: #e76c90;
+  background-color: #2f3142;
+}
+
+.jumbotron.j-changelog {
+  margin: 0;
+  background: url('../../../assets/img/preview/j-changelog.jpg') no-repeat center center;
+  color: #fff !important;
+  height: 285px;
+  position: relative;
+}
+
+.jumbotron.j-changelog h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.sticky.is-sticky {
+  position: fixed;
+  top: 30px;
+  z-index: 1000;
+}
+
+@media (max-width: 576px) {
+  .sticky.is-sticky {
+    position: absolute;
+    top: 0;
+  }
+
+  h1, .h1 {
+    font-size: 2rem !important;
+    font-weight: 700;
+  }
+
+  .header, .menu-area {
+    padding: 0 15px;
+  }
+
+  .navbar-brand {
+    margin-right: 0.3rem;
+  }
+
+  nav.navbar {
+    font-size: 1rem;
+  }
+
+  nav.navbar .navbar-brand .brand-big {
+    display: none;
+  }
+
+  .widgets {
+    position: relative;
+    top: 0;
+    transform: none;
+    left: -50%;
+  }
+
+  .jumbotron.j-preview h2 {
+    font-size: 1.6rem;
+    margin-top: 30px;
+  }
+
+  .m-box {
+    width: 100%;
+  }
+
+  .mockup-01 {
+    bottom: 0;
+    opacity: 0.4;
+  }
+}
