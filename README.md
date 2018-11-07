@@ -3,7 +3,8 @@
 Template ini didapat dari Themeforest November's Free File of the Month.
 Dengan mengunduh item ini, Anda setuju dengan ketentuan [Lisensi Reguler.](https://themeforest.net/licenses/standard)
 
-[DEMO](https://haifahrul.github.io/web-app-and-admin-dashboard-template-elisyam/index.html)
+[See Documentation](https://haifahrul.github.io/web-app-and-admin-dashboard-template-elisyam/docs/index.html)
+[See DEMO](https://haifahrul.github.io/web-app-and-admin-dashboard-template-elisyam/index.html)
 --
 
 ## FEATURES
